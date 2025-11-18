@@ -9,7 +9,7 @@ import com.github.catvod.spider.merge.Df;
 import com.github.catvod.spider.merge.WN;
 import com.github.catvod.spider.merge.bI;
 import com.github.catvod.spider.merge.hf;
-import com.github.catvod.spider.merge.if;
+import com.github.catvod.spider.merge.uf;
 import com.github.catvod.spider.merge.k;
 import com.github.catvod.spider.merge.wA;
 import java.io.UnsupportedEncodingException;
@@ -1229,7 +1229,7 @@ public class xBPQ extends Spider {
                 }
                 if (isVideoFormat(str3)) {
                     jSONObject.put("parse", 0);
-                } else if (if.S(str3)) {
+                } else if (uf.S(str3)) {
                     jSONObject.put("parse", 1);
                     jSONObject.put("jx", "1");
                 } else {
@@ -1395,7 +1395,7 @@ public class xBPQ extends Spider {
                                                                         str32 = Z(str31, "src=\"&&\"", str2).get(0);
                                                                     }
                                                                     if (!str32.equals(str17) && !str32.isEmpty()) {
-                                                                        e5 = if.e(replaceAll, str32);
+                                                                        e5 = uf.e(replaceAll, str32);
                                                                         if (this.S) {
                                                                             e5 = T(e5, replaceAll);
                                                                         }
@@ -1793,7 +1793,7 @@ public class xBPQ extends Spider {
                                     if (!z || trim4.contains(str33)) {
                                         String trim5 = jSONObject3.optString(QQ("jsid", "jsonid", "id")).trim();
                                         jSONArray = jSONArray;
-                                        String e7 = if.e(sb6, jSONObject3.optString(QQ("jspic", "jsonpic", "pic")).trim());
+                                        String e7 = uf.e(sb6, jSONObject3.optString(QQ("jspic", "jsonpic", "pic")).trim());
                                         if (this.S) {
                                             e7 = T(e7, sb6);
                                         }
