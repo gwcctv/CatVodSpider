@@ -4772,32 +4772,45 @@ public class XBPQ extends Spider {
         }
     }
 
-    private JSONArray N(String str, String str2, String str3, String str4, String str5) {
-        String str6 = "-";
-        String str7 = "$";
+    private JSONArray n(String str, String str2, String str3, String str4, String str5) {
         try {
             JSONArray jSONArray = new JSONArray();
-            if (str.contains(str7)) {
-                jSONArray.put(W("cateId", "类型", str));
+            if (!str.equals("0") && str.contains("$")) {
+                jSONArray.put(F("cateId", "类型", str));
             }
-            if (str2.contains(str7)) {
-                jSONArray.put(W("class", "剧情", str2));
+            if (!str2.equals("0") && str2.contains("$")) {
+                jSONArray.put(F("class", "剧情", str2));
             }
-            if (str3.contains(str7)) {
-                jSONArray.put(W("area", "地区", str3));
+            if (!str3.equals("0") && str3.contains("$")) {
+                jSONArray.put(F("area", "地区", str3));
             }
-            if (str4.contains(str6) && !str4.contains("--")) {
-                int parseInt = Integer.parseInt(str4.split(str6)[1]);
-                int parseInt2 = Integer.parseInt(str4.split(str6)[0]);
+            if (!str4.equals("0") && str4.contains("-")) {
+                int parseInt = Integer.parseInt(str4.split("-")[1]);
+                int parseInt2 = Integer.parseInt(str4.split("-")[0]);
                 if (parseInt2 > parseInt) {
-                    int i = parseInt2;
                     parseInt2 = parseInt;
-                    parseInt = i;
+                    parseInt = parseInt2;
                 }
-                str4 = "";
-                for (parseInt = 
-
-
+                String str6 = "";
+                while (parseInt >= parseInt2) {
+                    if (parseInt == parseInt2) {
+                        str6 = str6 + String.valueOf(parseInt) + "$" + String.valueOf(parseInt);
+                    } else {
+                        str6 = str6 + String.valueOf(parseInt) + "$" + String.valueOf(parseInt) + "#";
+                    }
+                    parseInt--;
+                }
+                jSONArray.put(F("year", "年份", str6));
+            }
+            if (!str5.equals("0") && str5.contains("$")) {
+                jSONArray.put(F("by", "排序", str5));
+            }
+            return jSONArray;
+        } catch (Exception n) {
+            SpiderDebug.log(n);
+            return null;
+        }
+    }
     private String Nl(String str, String str2, String str3, String str4, String str5) {
         return g9(str, g9(str2, g9(str3, g9(str4, str5))));
     }
