@@ -13,8 +13,7 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '11'
-        distribution: 'temurin'  # 改为 temurin，因为 adopt 已迁移到 Eclipse Temurin
-        cache: 'gradle'  # 确保有引号
+        distribution: 'microsoft'  # 尝试使用 Microsoft 的发行版
         
     - name: Build with Gradle
       run: ./buildAndGenJar.bat ec
