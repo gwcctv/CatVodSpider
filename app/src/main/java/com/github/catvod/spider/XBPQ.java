@@ -243,76 +243,6 @@ public class XBPQ extends Spider {
         return str2;
     }
 
-    /* JADX WARNING: Removed duplicated region for block: B:326:0x085c  */
-    /* JADX WARNING: Removed duplicated region for block: B:319:0x0819 A:{SYNTHETIC, Splitter: B:319:0x0819} */
-    /* JADX WARNING: Removed duplicated region for block: B:390:0x0971  */
-    /* JADX WARNING: Removed duplicated region for block: B:337:0x08a1  */
-    /* JADX WARNING: Removed duplicated region for block: B:395:0x097f A:{SYNTHETIC, Splitter: B:395:0x097f} */
-    /* JADX WARNING: Removed duplicated region for block: B:400:0x098e A:{SYNTHETIC, Splitter: B:400:0x098e} */
-    /* JADX WARNING: Removed duplicated region for block: B:473:0x0afb  */
-    /* JADX WARNING: Removed duplicated region for block: B:479:0x0b04 A:{SYNTHETIC, Splitter: B:479:0x0b04} */
-    /* JADX WARNING: Removed duplicated region for block: B:528:0x0bd6  */
-    /* JADX WARNING: Removed duplicated region for block: B:486:0x0b1e A:{SYNTHETIC, Splitter: B:486:0x0b1e} */
-    /* JADX WARNING: Removed duplicated region for block: B:456:0x0aca A:{SYNTHETIC, Splitter: B:456:0x0aca} */
-    /* JADX WARNING: Removed duplicated region for block: B:473:0x0afb  */
-    /* JADX WARNING: Removed duplicated region for block: B:479:0x0b04 A:{SYNTHETIC, Splitter: B:479:0x0b04} */
-    /* JADX WARNING: Removed duplicated region for block: B:486:0x0b1e A:{SYNTHETIC, Splitter: B:486:0x0b1e} */
-    /* JADX WARNING: Removed duplicated region for block: B:528:0x0bd6  */
-    /* JADX WARNING: Removed duplicated region for block: B:544:0x0c15 A:{Catch:{ all -> 0x0c24 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:609:0x0e3b  */
-    /* JADX WARNING: Removed duplicated region for block: B:106:0x0387  */
-    /* JADX WARNING: Removed duplicated region for block: B:74:0x01f2 A:{SYNTHETIC, Splitter: B:74:0x01f2} */
-    /* JADX WARNING: Removed duplicated region for block: B:113:0x03a5  */
-    /* JADX WARNING: Removed duplicated region for block: B:109:0x0397  */
-    /* JADX WARNING: Removed duplicated region for block: B:149:0x04a2  */
-    /* JADX WARNING: Removed duplicated region for block: B:148:0x049e  */
-    /* JADX WARNING: Removed duplicated region for block: B:152:0x04b4 A:{SYNTHETIC, Splitter: B:152:0x04b4} */
-    /* JADX WARNING: Removed duplicated region for block: B:609:0x0e3b  */
-    /* JADX WARNING: Removed duplicated region for block: B:54:0x0170 A:{Catch:{ Exception -> 0x0e70 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:52:0x016a A:{Catch:{ Exception -> 0x0e70 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:58:0x018f A:{Catch:{ Exception -> 0x0e70 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:57:0x018d A:{Catch:{ Exception -> 0x0e70 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:61:0x019a A:{Catch:{ Exception -> 0x0e70 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:63:0x019d A:{Catch:{ Exception -> 0x0e70 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:74:0x01f2 A:{SYNTHETIC, Splitter: B:74:0x01f2} */
-    /* JADX WARNING: Removed duplicated region for block: B:106:0x0387  */
-    /* JADX WARNING: Removed duplicated region for block: B:109:0x0397  */
-    /* JADX WARNING: Removed duplicated region for block: B:113:0x03a5  */
-    /* JADX WARNING: Removed duplicated region for block: B:117:0x0423 A:{SYNTHETIC, Splitter: B:117:0x0423} */
-    /* JADX WARNING: Removed duplicated region for block: B:136:0x0474  */
-    /* JADX WARNING: Removed duplicated region for block: B:142:0x0486  */
-    /* JADX WARNING: Removed duplicated region for block: B:148:0x049e  */
-    /* JADX WARNING: Removed duplicated region for block: B:149:0x04a2  */
-    /* JADX WARNING: Removed duplicated region for block: B:152:0x04b4 A:{SYNTHETIC, Splitter: B:152:0x04b4} */
-    /* JADX WARNING: Removed duplicated region for block: B:609:0x0e3b  */
-    /* JADX WARNING: Removed duplicated region for block: B:11:0x0092  */
-    /* JADX WARNING: Removed duplicated region for block: B:10:0x0088  */
-    /* JADX WARNING: Removed duplicated region for block: B:38:0x0106 A:{Catch:{ Exception -> 0x0e70 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:37:0x00ff A:{Catch:{ Exception -> 0x0e70 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:52:0x016a A:{Catch:{ Exception -> 0x0e70 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:54:0x0170 A:{Catch:{ Exception -> 0x0e70 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:57:0x018d A:{Catch:{ Exception -> 0x0e70 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:58:0x018f A:{Catch:{ Exception -> 0x0e70 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:61:0x019a A:{Catch:{ Exception -> 0x0e70 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:63:0x019d A:{Catch:{ Exception -> 0x0e70 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:106:0x0387  */
-    /* JADX WARNING: Removed duplicated region for block: B:74:0x01f2 A:{SYNTHETIC, Splitter: B:74:0x01f2} */
-    /* JADX WARNING: Removed duplicated region for block: B:113:0x03a5  */
-    /* JADX WARNING: Removed duplicated region for block: B:109:0x0397  */
-    /* JADX WARNING: Removed duplicated region for block: B:117:0x0423 A:{SYNTHETIC, Splitter: B:117:0x0423} */
-    /* JADX WARNING: Removed duplicated region for block: B:136:0x0474  */
-    /* JADX WARNING: Removed duplicated region for block: B:142:0x0486  */
-    /* JADX WARNING: Removed duplicated region for block: B:149:0x04a2  */
-    /* JADX WARNING: Removed duplicated region for block: B:148:0x049e  */
-    /* JADX WARNING: Removed duplicated region for block: B:152:0x04b4 A:{SYNTHETIC, Splitter: B:152:0x04b4} */
-    /* JADX WARNING: Removed duplicated region for block: B:609:0x0e3b  */
-    /* JADX WARNING: Missing block: B:186:0x052a, code:
-            if (r12.equals(r14) != false) goto L_0x052c;
-     */
-    /* JADX WARNING: Missing block: B:258:0x06d4, code:
-            if (Nl("数组", "列表截取数组", "jiequshuzuqian", "cat_arr_pre", "").length() < 1) goto L_0x06d6;
-     */
-    /* Code decompiled incorrectly, please refer to instructions dump. */
     private JSONObject yq(String str, String str2, boolean z, HashMap<String, String> hashMap) {
         String str3;
         String str4;
@@ -3669,20 +3599,7 @@ public class XBPQ extends Spider {
         return V2.yq(str);
     }
 
-    /* JADX WARNING: Removed duplicated region for block: B:52:0x0205  */
-    /* JADX WARNING: Removed duplicated region for block: B:28:0x0151  */
-    /* JADX WARNING: Removed duplicated region for block: B:27:0x0143  */
-    /* JADX WARNING: Removed duplicated region for block: B:32:0x0174  */
-    /* JADX WARNING: Removed duplicated region for block: B:39:0x01b6  */
-    /* JADX WARNING: Removed duplicated region for block: B:46:0x01ee  */
-    /* JADX WARNING: Removed duplicated region for block: B:52:0x0205  */
-    /* JADX WARNING: Removed duplicated region for block: B:27:0x0143  */
-    /* JADX WARNING: Removed duplicated region for block: B:28:0x0151  */
-    /* JADX WARNING: Removed duplicated region for block: B:32:0x0174  */
-    /* JADX WARNING: Removed duplicated region for block: B:39:0x01b6  */
-    /* JADX WARNING: Removed duplicated region for block: B:46:0x01ee  */
-    /* JADX WARNING: Removed duplicated region for block: B:52:0x0205  */
-    /* Code decompiled incorrectly, please refer to instructions dump. */
+
     public void init(Context context, String str) {
         String str2 = str;
         String str3 = "script";
@@ -3910,12 +3827,7 @@ public class XBPQ extends Spider {
         return str5;
     }
 
-    /* JADX WARNING: Removed duplicated region for block: B:154:0x02f2  */
-    /* JADX WARNING: Removed duplicated region for block: B:153:0x02ee  */
-    /* JADX WARNING: Removed duplicated region for block: B:132:0x0297  */
-    /* JADX WARNING: Removed duplicated region for block: B:131:0x0292  */
-    /* JADX WARNING: Removed duplicated region for block: B:95:0x01ed  */
-    /* Code decompiled incorrectly, please refer to instructions dump. */
+
     private ArrayList<String> Dr(String str, String str2, String str3) {
         XBPQ xbpq = this;
         String str4 = str;
@@ -4884,41 +4796,7 @@ public class XBPQ extends Spider {
                 }
                 str4 = "";
                 for (parseInt = 
-/*
-Method generation error in method: com.github.catvod.spider.XBPQ.N(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String):org.json.JSONArray, dex: 
-jadx.core.d.b.a: Error generate insn: PHI: (r7_15 'parseInt' int) = (r7_13 'parseInt' int), (r7_14 'parseInt' int) binds: {(r7_13 'parseInt' int)=B:16:0x0060, (r7_14 'parseInt' int)=B:17:0x0062} in method: com.github.catvod.spider.XBPQ.N(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String):org.json.JSONArray, dex: 
-	at jadx.core.a.f.a(InsnGen.java:228)
-	at jadx.core.a.i.a(RegionGen.java:183)
-	at jadx.core.a.i.a(RegionGen.java:61)
-	at jadx.core.a.i.a(RegionGen.java:87)
-	at jadx.core.a.i.a(RegionGen.java:53)
-	at jadx.core.a.i.b(RegionGen.java:93)
-	at jadx.core.a.i.a(RegionGen.java:118)
-	at jadx.core.a.i.a(RegionGen.java:57)
-	at jadx.core.a.i.a(RegionGen.java:87)
-	at jadx.core.a.i.a(RegionGen.java:53)
-	at jadx.core.a.i.b(RegionGen.java:93)
-	at jadx.core.a.i.a(RegionGen.java:278)
-	at jadx.core.a.i.a(RegionGen.java:63)
-	at jadx.core.a.i.a(RegionGen.java:87)
-	at jadx.core.a.i.a(RegionGen.java:53)
-	at jadx.core.a.g.b(MethodGen.java:171)
-	at jadx.core.a.b.a(ClassGen.java:325)
-	at jadx.core.a.b.d(ClassGen.java:263)
-	at jadx.core.a.b.c(ClassGen.java:225)
-	at jadx.core.a.b.a(ClassGen.java:115)
-	at jadx.core.a.b.b(ClassGen.java:75)
-	at jadx.core.a.c.a(CodeGen.java:10)
-	at jadx.core.b.a(ProcessClass.java:38)
-	at jadx.a.d.a(JadxDecompiler.java:300)
-	at jadx.a.e.b(JavaClass.java:63)
-Caused by: jadx.core.d.b.a: PHI can be used only in fallback mode
-	at jadx.core.a.f.a(InsnGen.java:528)
-	at jadx.core.a.f.a(InsnGen.java:500)
-	at jadx.core.a.f.a(InsnGen.java:222)
-	... 24 more
 
-*/
 
     private String Nl(String str, String str2, String str3, String str4, String str5) {
         return g9(str, g9(str2, g9(str3, g9(str4, str5))));
@@ -5230,127 +5108,7 @@ Caused by: jadx.core.d.b.a: PHI can be used only in fallback mode
         return yq != null ? yq.toString() : "";
     }
 
-    /* JADX WARNING: Removed duplicated region for block: B:126:0x0357  */
-    /* JADX WARNING: Removed duplicated region for block: B:125:0x0356  */
-    /* JADX WARNING: Removed duplicated region for block: B:455:0x0acc A:{SYNTHETIC, Splitter: B:455:0x0acc} */
-    /* JADX WARNING: Removed duplicated region for block: B:452:0x0aa0 A:{Catch:{ all -> 0x0f24 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:455:0x0acc A:{SYNTHETIC, Splitter: B:455:0x0acc} */
-    /* JADX WARNING: Removed duplicated region for block: B:657:0x0e35 A:{Catch:{ all -> 0x0e9f }} */
-    /* JADX WARNING: Removed duplicated region for block: B:657:0x0e35 A:{Catch:{ all -> 0x0e9f }} */
-    /* JADX WARNING: Removed duplicated region for block: B:657:0x0e35 A:{Catch:{ all -> 0x0e9f }} */
-    /* JADX WARNING: Removed duplicated region for block: B:657:0x0e35 A:{Catch:{ all -> 0x0e9f }} */
-    /* JADX WARNING: Removed duplicated region for block: B:657:0x0e35 A:{Catch:{ all -> 0x0e9f }} */
-    /* JADX WARNING: Removed duplicated region for block: B:595:0x0d4f A:{SYNTHETIC, Splitter: B:595:0x0d4f} */
-    /* JADX WARNING: Removed duplicated region for block: B:657:0x0e35 A:{Catch:{ all -> 0x0e9f }} */
-    /* JADX WARNING: Removed duplicated region for block: B:533:0x0c83  */
-    /* JADX WARNING: Removed duplicated region for block: B:523:0x0c4f  */
-    /* JADX WARNING: Removed duplicated region for block: B:535:0x0c87 A:{SYNTHETIC, Splitter: B:535:0x0c87} */
-    /* JADX WARNING: Removed duplicated region for block: B:595:0x0d4f A:{SYNTHETIC, Splitter: B:595:0x0d4f} */
-    /* JADX WARNING: Removed duplicated region for block: B:634:0x0de0 A:{SYNTHETIC, Splitter: B:634:0x0de0} */
-    /* JADX WARNING: Removed duplicated region for block: B:657:0x0e35 A:{Catch:{ all -> 0x0e9f }} */
-    /* JADX WARNING: Removed duplicated region for block: B:1055:0x0fba A:{SYNTHETIC} */
-    /* JADX WARNING: Removed duplicated region for block: B:325:0x07f8  */
-    /* JADX WARNING: Removed duplicated region for block: B:1054:0x110e A:{SYNTHETIC} */
-    /* JADX WARNING: Removed duplicated region for block: B:1051:0x103d A:{SYNTHETIC} */
-    /* JADX WARNING: Removed duplicated region for block: B:266:0x06bb  */
-    /* JADX WARNING: Removed duplicated region for block: B:256:0x0642 A:{SYNTHETIC, Splitter: B:256:0x0642} */
-    /* JADX WARNING: Removed duplicated region for block: B:270:0x06dc A:{Catch:{ all -> 0x1068 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:288:0x0742  */
-    /* JADX WARNING: Removed duplicated region for block: B:274:0x06e4 A:{SYNTHETIC, Splitter: B:274:0x06e4} */
-    /* JADX WARNING: Removed duplicated region for block: B:293:0x0787 A:{SYNTHETIC, Splitter: B:293:0x0787} */
-    /* JADX WARNING: Removed duplicated region for block: B:312:0x07c5  */
-    /* JADX WARNING: Removed duplicated region for block: B:318:0x07d7  */
-    /* JADX WARNING: Removed duplicated region for block: B:325:0x07f8  */
-    /* JADX WARNING: Removed duplicated region for block: B:1055:0x0fba A:{SYNTHETIC} */
-    /* JADX WARNING: Removed duplicated region for block: B:1051:0x103d A:{SYNTHETIC} */
-    /* JADX WARNING: Removed duplicated region for block: B:1054:0x110e A:{SYNTHETIC} */
-    /* JADX WARNING: Removed duplicated region for block: B:232:0x05bf A:{SYNTHETIC, Splitter: B:232:0x05bf} */
-    /* JADX WARNING: Removed duplicated region for block: B:227:0x05b2 A:{SYNTHETIC, Splitter: B:227:0x05b2} */
-    /* JADX WARNING: Removed duplicated region for block: B:237:0x05cc  */
-    /* JADX WARNING: Removed duplicated region for block: B:158:0x043b  */
-    /* JADX WARNING: Removed duplicated region for block: B:157:0x0439  */
-    /* JADX WARNING: Removed duplicated region for block: B:171:0x0496  */
-    /* JADX WARNING: Removed duplicated region for block: B:162:0x0447  */
-    /* JADX WARNING: Removed duplicated region for block: B:180:0x04ab  */
-    /* JADX WARNING: Removed duplicated region for block: B:177:0x04a6  */
-    /* JADX WARNING: Removed duplicated region for block: B:222:0x059e  */
-    /* JADX WARNING: Removed duplicated region for block: B:185:0x04c3  */
-    /* JADX WARNING: Removed duplicated region for block: B:227:0x05b2 A:{SYNTHETIC, Splitter: B:227:0x05b2} */
-    /* JADX WARNING: Removed duplicated region for block: B:232:0x05bf A:{SYNTHETIC, Splitter: B:232:0x05bf} */
-    /* JADX WARNING: Removed duplicated region for block: B:237:0x05cc  */
-    /* JADX WARNING: Removed duplicated region for block: B:98:0x0269  */
-    /* JADX WARNING: Removed duplicated region for block: B:136:0x0391  */
-    /* JADX WARNING: Removed duplicated region for block: B:1060:0x120d A:{SYNTHETIC, EDGE_INSN: B:1060:0x120d->B:773:0x120d ?: BREAK  , EDGE_INSN: B:1060:0x120d->B:773:0x120d ?: BREAK  } */
-    /* JADX WARNING: Removed duplicated region for block: B:769:0x11f9 A:{Catch:{ Exception -> 0x1cf0 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:775:0x1214 A:{Catch:{ Exception -> 0x1cf0 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:880:0x17c4  */
-    /* JADX WARNING: Removed duplicated region for block: B:879:0x17a9  */
-    /* JADX WARNING: Removed duplicated region for block: B:1029:0x1cc6  */
-    /* JADX WARNING: Removed duplicated region for block: B:1028:0x1cbc  */
-    /* JADX WARNING: Removed duplicated region for block: B:54:0x00bf A:{SYNTHETIC, Splitter: B:54:0x00bf} */
-    /* JADX WARNING: Removed duplicated region for block: B:51:0x00b9 A:{SYNTHETIC, Splitter: B:51:0x00b9} */
-    /* JADX WARNING: Removed duplicated region for block: B:84:0x0223  */
-    /* JADX WARNING: Removed duplicated region for block: B:59:0x0119 A:{SYNTHETIC, Splitter: B:59:0x0119} */
-    /* JADX WARNING: Removed duplicated region for block: B:789:0x12d6 A:{Catch:{ Exception -> 0x1cf0 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:793:0x1301 A:{Catch:{ Exception -> 0x1cf0 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:792:0x12ee A:{Catch:{ Exception -> 0x1cf0 }} */
-    /* JADX WARNING: Removed duplicated region for block: B:866:0x16e4  */
-    /* JADX WARNING: Removed duplicated region for block: B:864:0x1692  */
-    /* JADX WARNING: Removed duplicated region for block: B:879:0x17a9  */
-    /* JADX WARNING: Removed duplicated region for block: B:880:0x17c4  */
-    /* JADX WARNING: Removed duplicated region for block: B:1028:0x1cbc  */
-    /* JADX WARNING: Removed duplicated region for block: B:1029:0x1cc6  */
-    /* JADX WARNING: Missing block: B:362:0x0885, code:
-            if (r4.equals("null") != false) goto L_0x0887;
-     */
-    /* JADX WARNING: Missing block: B:464:?, code:
-            r1 = new java.util.ArrayList();
-            r2 = new java.util.ArrayList();
-     */
-    /* JADX WARNING: Missing block: B:466:?, code:
-            r5 = new java.lang.StringBuilder();
-            r5.append(r3);
-     */
-    /* JADX WARNING: Missing block: B:467:0x0b0e, code:
-            r3 = r53;
-     */
-    /* JADX WARNING: Missing block: B:469:?, code:
-            r5.append(r3);
-            r5.append(r4);
-            r1.add(r5.toString());
-     */
-    /* JADX WARNING: Missing block: B:470:0x0b1d, code:
-            r74 = r10;
-            r59 = r14;
-            r55 = r15;
-            r9 = r17;
-            r37 = r35;
-            r14 = r49;
-            r35 = r64;
-            r4 = 0;
-            r38 = 1;
-            r10 = r3;
-            r64 = r13;
-            r13 = r28;
-            r3 = r68;
-            r28 = r7;
-     */
-    /* JADX WARNING: Missing block: B:471:0x0b39, code:
-            r0 = th;
-     */
-    /* JADX WARNING: Missing block: B:472:0x0b3a, code:
-            r1 = r0;
-     */
-    /* JADX WARNING: Missing block: B:473:0x0b3c, code:
-            r0 = th;
-     */
-    /* JADX WARNING: Missing block: B:474:0x0b3d, code:
-            r3 = r53;
-     */
-    /* JADX WARNING: Missing block: B:619:0x0dac, code:
-            if (java.lang.Integer.parseInt(r2) > java.lang.Integer.parseInt(r7)) goto L_0x0dae;
-     */
-    /* Code decompiled incorrectly, please refer to instructions dump. */
+
     public String detailContent(List<String> list) {
         Throwable th;
         Throwable e;
@@ -10440,12 +10198,7 @@ Caused by: jadx.core.d.b.a: PHI can be used only in fallback mode
         }
     }
 
-    /* JADX WARNING: Removed duplicated region for block: B:68:0x0177  */
-    /* JADX WARNING: Removed duplicated region for block: B:51:0x0122  */
-    /* JADX WARNING: Removed duplicated region for block: B:60:0x015a  */
-    /* JADX WARNING: Removed duplicated region for block: B:66:0x0170  */
-    /* JADX WARNING: Removed duplicated region for block: B:68:0x0177  */
-    /* Code decompiled incorrectly, please refer to instructions dump. */
+
     public String homeContent(boolean z) {
         String str = "clan://localhost/";
         String str2 = "clan://";
@@ -10752,41 +10505,7 @@ Caused by: jadx.core.d.b.a: PHI can be used only in fallback mode
         }
     }
 
-    /* JADX WARNING: Removed duplicated region for block: B:406:0x092d  */
-    /* JADX WARNING: Removed duplicated region for block: B:252:0x060f A:{SYNTHETIC, Splitter: B:252:0x060f} */
-    /* JADX WARNING: Removed duplicated region for block: B:229:0x05a9 A:{SYNTHETIC, Splitter: B:229:0x05a9} */
-    /* JADX WARNING: Removed duplicated region for block: B:252:0x060f A:{SYNTHETIC, Splitter: B:252:0x060f} */
-    /* JADX WARNING: Removed duplicated region for block: B:406:0x092d  */
-    /* JADX WARNING: Removed duplicated region for block: B:366:0x0832  */
-    /* JADX WARNING: Removed duplicated region for block: B:353:0x07fe  */
-    /* JADX WARNING: Removed duplicated region for block: B:342:0x07cc A:{SYNTHETIC, Splitter: B:342:0x07cc} */
-    /* JADX WARNING: Removed duplicated region for block: B:353:0x07fe  */
-    /* JADX WARNING: Removed duplicated region for block: B:366:0x0832  */
-    /* JADX WARNING: Removed duplicated region for block: B:95:0x0309  */
-    /* JADX WARNING: Removed duplicated region for block: B:536:0x0a95 A:{SYNTHETIC, EDGE_INSN: B:536:0x0a95->B:439:0x0a95 ?: BREAK  } */
-    /* JADX WARNING: Removed duplicated region for block: B:430:0x0a51  */
-    /* JADX WARNING: Removed duplicated region for block: B:88:0x02e7  */
-    /* JADX WARNING: Removed duplicated region for block: B:95:0x0309  */
-    /* JADX WARNING: Removed duplicated region for block: B:536:0x0a95 A:{SYNTHETIC, EDGE_INSN: B:536:0x0a95->B:439:0x0a95 ?: BREAK  } */
-    /* JADX WARNING: Removed duplicated region for block: B:430:0x0a51  */
-    /* JADX WARNING: Removed duplicated region for block: B:525:0x0cf5  */
-    /* JADX WARNING: Removed duplicated region for block: B:520:0x0cd7  */
-    /* JADX WARNING: Removed duplicated region for block: B:513:0x0ca8  */
-    /* JADX WARNING: Removed duplicated region for block: B:520:0x0cd7  */
-    /* JADX WARNING: Removed duplicated region for block: B:525:0x0cf5  */
-    /* JADX WARNING: Removed duplicated region for block: B:443:0x0aa0  */
-    /* JADX WARNING: Removed duplicated region for block: B:46:0x0174 A:{SYNTHETIC, Splitter: B:46:0x0174} */
-    /* JADX WARNING: Removed duplicated region for block: B:528:0x0d4d  */
-    /* JADX WARNING: Removed duplicated region for block: B:445:0x0aba  */
-    /* JADX WARNING: Removed duplicated region for block: B:30:0x010e  */
-    /* JADX WARNING: Removed duplicated region for block: B:29:0x00f3  */
-    /* JADX WARNING: Removed duplicated region for block: B:33:0x011a  */
-    /* JADX WARNING: Removed duplicated region for block: B:41:0x014c  */
-    /* JADX WARNING: Removed duplicated region for block: B:40:0x014b  */
-    /* JADX WARNING: Missing block: B:133:0x0369, code:
-            if (r2.equals("null") != false) goto L_0x036b;
-     */
-    /* Code decompiled incorrectly, please refer to instructions dump. */
+
     public String searchContent(String str, boolean z) {
         String str2;
         int i;
@@ -14051,61 +13770,7 @@ Caused by: jadx.core.d.b.a: PHI can be used only in fallback mode
         return Fp.yq(str).Fo();
     }
 
-    /* JADX WARNING: Removed duplicated region for block: B:77:0x0275  */
-    /* JADX WARNING: Removed duplicated region for block: B:76:0x0263  */
-    /* JADX WARNING: Removed duplicated region for block: B:122:0x029c A:{SYNTHETIC} */
-    /* JADX WARNING: Removed duplicated region for block: B:119:0x0294 A:{SYNTHETIC} */
-    /* JADX WARNING: Removed duplicated region for block: B:13:0x0058  */
-    /* JADX WARNING: Removed duplicated region for block: B:116:0x0196 A:{SYNTHETIC, EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  } */
-    /* JADX WARNING: Removed duplicated region for block: B:48:0x0176 A:{SYNTHETIC, Splitter: B:48:0x0176} */
-    /* JADX WARNING: Removed duplicated region for block: B:118:0x02dd A:{SYNTHETIC, EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  } */
-    /* JADX WARNING: Removed duplicated region for block: B:53:0x01ce  */
-    /* JADX WARNING: Removed duplicated region for block: B:95:0x02e5  */
-    /* JADX WARNING: Removed duplicated region for block: B:101:0x02ff  */
-    /* JADX WARNING: Removed duplicated region for block: B:107:0x0319  */
-    /* JADX WARNING: Removed duplicated region for block: B:48:0x0176 A:{SYNTHETIC, Splitter: B:48:0x0176} */
-    /* JADX WARNING: Removed duplicated region for block: B:116:0x0196 A:{SYNTHETIC, EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  } */
-    /* JADX WARNING: Removed duplicated region for block: B:53:0x01ce  */
-    /* JADX WARNING: Removed duplicated region for block: B:118:0x02dd A:{SYNTHETIC, EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  } */
-    /* JADX WARNING: Removed duplicated region for block: B:95:0x02e5  */
-    /* JADX WARNING: Removed duplicated region for block: B:101:0x02ff  */
-    /* JADX WARNING: Removed duplicated region for block: B:107:0x0319  */
-    /* JADX WARNING: Removed duplicated region for block: B:116:0x0196 A:{SYNTHETIC, EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  } */
-    /* JADX WARNING: Removed duplicated region for block: B:48:0x0176 A:{SYNTHETIC, Splitter: B:48:0x0176} */
-    /* JADX WARNING: Removed duplicated region for block: B:118:0x02dd A:{SYNTHETIC, EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  } */
-    /* JADX WARNING: Removed duplicated region for block: B:53:0x01ce  */
-    /* JADX WARNING: Removed duplicated region for block: B:95:0x02e5  */
-    /* JADX WARNING: Removed duplicated region for block: B:101:0x02ff  */
-    /* JADX WARNING: Removed duplicated region for block: B:107:0x0319  */
-    /* JADX WARNING: Removed duplicated region for block: B:48:0x0176 A:{SYNTHETIC, Splitter: B:48:0x0176} */
-    /* JADX WARNING: Removed duplicated region for block: B:116:0x0196 A:{SYNTHETIC, EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  } */
-    /* JADX WARNING: Removed duplicated region for block: B:53:0x01ce  */
-    /* JADX WARNING: Removed duplicated region for block: B:118:0x02dd A:{SYNTHETIC, EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  } */
-    /* JADX WARNING: Removed duplicated region for block: B:95:0x02e5  */
-    /* JADX WARNING: Removed duplicated region for block: B:101:0x02ff  */
-    /* JADX WARNING: Removed duplicated region for block: B:107:0x0319  */
-    /* JADX WARNING: Removed duplicated region for block: B:116:0x0196 A:{SYNTHETIC, EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  } */
-    /* JADX WARNING: Removed duplicated region for block: B:48:0x0176 A:{SYNTHETIC, Splitter: B:48:0x0176} */
-    /* JADX WARNING: Removed duplicated region for block: B:118:0x02dd A:{SYNTHETIC, EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  } */
-    /* JADX WARNING: Removed duplicated region for block: B:53:0x01ce  */
-    /* JADX WARNING: Removed duplicated region for block: B:95:0x02e5  */
-    /* JADX WARNING: Removed duplicated region for block: B:101:0x02ff  */
-    /* JADX WARNING: Removed duplicated region for block: B:107:0x0319  */
-    /* JADX WARNING: Removed duplicated region for block: B:48:0x0176 A:{SYNTHETIC, Splitter: B:48:0x0176} */
-    /* JADX WARNING: Removed duplicated region for block: B:116:0x0196 A:{SYNTHETIC, EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  } */
-    /* JADX WARNING: Removed duplicated region for block: B:53:0x01ce  */
-    /* JADX WARNING: Removed duplicated region for block: B:118:0x02dd A:{SYNTHETIC, EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  } */
-    /* JADX WARNING: Removed duplicated region for block: B:95:0x02e5  */
-    /* JADX WARNING: Removed duplicated region for block: B:101:0x02ff  */
-    /* JADX WARNING: Removed duplicated region for block: B:107:0x0319  */
-    /* JADX WARNING: Removed duplicated region for block: B:116:0x0196 A:{SYNTHETIC, EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  , EDGE_INSN: B:116:0x0196->B:50:0x0196 ?: BREAK  } */
-    /* JADX WARNING: Removed duplicated region for block: B:48:0x0176 A:{SYNTHETIC, Splitter: B:48:0x0176} */
-    /* JADX WARNING: Removed duplicated region for block: B:118:0x02dd A:{SYNTHETIC, EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  , EDGE_INSN: B:118:0x02dd->B:93:0x02dd ?: BREAK  } */
-    /* JADX WARNING: Removed duplicated region for block: B:53:0x01ce  */
-    /* JADX WARNING: Removed duplicated region for block: B:95:0x02e5  */
-    /* JADX WARNING: Removed duplicated region for block: B:101:0x02ff  */
-    /* JADX WARNING: Removed duplicated region for block: B:107:0x0319  */
-    /* Code decompiled incorrectly, please refer to instructions dump. */
+
     public String xpDetailContent(List<String> list) {
         Object obj;
         String str;
