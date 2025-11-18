@@ -7,48 +7,19 @@ jobs:
     runs-on: windows-latest
     
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v4  # 更新到 v4
     
     - name: Set up JDK 11
-      uses: actions/setup-java@v4
+      uses: actions/setup-java@v4  # 更新到 v4
       with:
         java-version: '11'
         distribution: 'temurin'
-        cache: 'gradle'
-    
-    - name: Make gradlew executable
-      run: icacls gradlew /grant Everyone:F
-      
+        
     - name: Build with Gradle
-      run: |
-        ./gradlew build
-        # 或者根据你的项目结构使用具体的构建命令
-        # ./gradlew jar
-        # ./gradlew shadowJar
-        
-    - name: Create jar directory if not exists
-      run: if not exist jar mkdir jar
-      
-    - name: Copy generated jar
-      run: |
-        # 根据你的项目结构找到生成的 JAR 文件
-        copy build\libs\*.jar jar\custom_spider.jar
-        # 或者
-        # xcopy build\libs jar /Y
-        
-    - name: Generate MD5 checksum
-      run: |
-        certutil -hashfile jar\custom_spider.jar MD5 > jar\custom_spider.jar.md5
-        
-    - name: Check generated files
-      run: |
-        echo "Generated files:"
-        dir jar
-        echo "JAR file size:"
-        for %%F in (jar\custom_spider.jar) do echo %%~zF bytes
+      run: ./buildAndGenJar.bat ec
         
     - name: Update spider jar
-      uses: EndBug/add-and-commit@v9
+      uses: EndBug/add-and-commit@v9  # 更新到 v9
       with:
         default_author: github_actions
         message: 'update spider jar'
